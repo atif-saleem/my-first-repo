@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+#page1,
+#page3 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(73, 15, 15, 0.555);
+}
+
+#move {
+    display: flex;
+    padding: 2vw 0;
+    background-color:#d4ff04;
+    overflow-x:hidden ;
+}
+.marque{
+display: flex;
+gap: 3vw;
+padding: 0 1.5vw;
+flex-shrink: 0;
+align-items: center;
+transform: translateX(-100%);
+}
+.marque img{
+    height: 80px;
+   
+    rotate: 180deg;
+}
+img h1{
+    font-size: 4vw;
+}
